@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="#67bbcef0"
+        android:scaleType="center"
+        app:srcCompat="@drawable/details" />
+
+
+    <TextView
+        android:id="@+id/details_albums_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#67bbcef0"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="17sp" />
+
+
+
+</LinearLayout>

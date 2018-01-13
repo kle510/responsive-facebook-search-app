@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kevin.hw9v1.DetailsActivity">
+    <item
+        android:id="@+id/action_add_favorites"
+        android:orderInCategory="100"
+        android:title="@string/action_favorites"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_facebook_share"
+        android:orderInCategory="100"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+</menu>
